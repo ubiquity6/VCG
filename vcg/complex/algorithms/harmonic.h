@@ -6,7 +6,7 @@
 #include <vector>
 #include <map>
 
-#include <eigenlib/Eigen/Sparse>
+#include <Eigen/Sparse>
 
 namespace vcg {
 namespace tri {
