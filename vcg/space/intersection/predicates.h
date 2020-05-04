@@ -406,7 +406,7 @@ const double isperrboundC = (71.0 + 1408.0 * PEPS) * PEPS * PEPS;
 /*                                                                           */
 /*****************************************************************************/
 
-int grow_expansion(int elen, REAL * e, REAL b, REAL * h)                /* e and h can be the same. */
+inline int grow_expansion(int elen, REAL * e, REAL b, REAL * h)                /* e and h can be the same. */
 {
   REAL Q;
   INEXACT REAL Qnew;
