@@ -1510,7 +1510,7 @@ inline REAL orient3dslow(Point3<REAL> const &pa, Point3<REAL> const &pb, Point3<
   return deter[deterlen - 1];
 }
 
-REAL orient3dadapt(Point3<REAL> const &pa, Point3<REAL> const &pb, Point3<REAL> const &pc, Point3<REAL> const &pd, REAL permanent)
+inline REAL orient3dadapt(Point3<REAL> const &pa, Point3<REAL> const &pb, Point3<REAL> const &pc, Point3<REAL> const &pd, REAL permanent)
 {
   INEXACT REAL adx, bdx, cdx, ady, bdy, cdy, adz, bdz, cdz;
   REAL det, errbound;
